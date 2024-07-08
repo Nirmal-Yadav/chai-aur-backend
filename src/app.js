@@ -19,4 +19,12 @@ app.use(express.static("public")); // image icon
 
 app.use(cookieParser()); // server can access ui cookies to manage it
 
+//  routes
+
+import userRouter from "./routes/user.routes";
+
+//  routes declaration
+
+app.use("/api/v1/users", userRouter);
+
 export { app };
