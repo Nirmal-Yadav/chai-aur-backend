@@ -21,7 +21,7 @@ app.use(cookieParser()); // server can access ui cookies to manage it
 
 //  routes
 
-import userRouter from "./routes/user.routes";
+import userRouter from "./routes/user.routes.js";
 
 //  routes declaration
 
